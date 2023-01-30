@@ -1,0 +1,162 @@
+
+/* common styles */
+body {
+    margin: 0;
+}
+main {
+    padding: 0 120px;
+}
+
+section {
+    margin-top: 100px;
+}
+/* header area */
+header{
+    background-image: url('./images/banner/banner3.png');
+    padding: 100px 120px;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+header h1{
+    color: #fff;
+}
+header p{
+    color: #fff;
+}
+p bnr {
+    color: #fff;
+}
+
+.banner-title h1{
+    color: #fff;
+}
+
+button.btn-primary {
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: blue;
+    font-size: 15px;
+}
+/* main area */
+/* about me */
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.section-title h1{
+    font-size: 40px;
+}
+.about-me img{
+    width: 100%;
+}
+.about-me ul {
+    margin: 0;
+    padding: 0;
+}
+.about-me li{
+    list-style: none;
+}
+
+/* my plan */
+.my-plan h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skills p {
+    align-items: center;
+}
+/* call to area */
+.call-to-area{
+    background-image: url('./images/gradient1.png'), url('./images/watch.png');
+    padding: 50px 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+section.call-to-area h1{
+    color: #fff;
+    font-size: 40px;
+}
+/* footer area */
+.footer-area {
+    display: flex;
+    gap: 70px;
+    padding: 50px 130px;
+  
+}
+
+footer {
+    margin-top: 60px;
+    background-color: black;
+}
+
+.footer-area {
+    color: #fff;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer li{
+    list-style: none;
+    margin: 5px 0;
+}
+footer p{
+    margin: 30px 0;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: #fff;
+    color: #fff;
+    background-color: black;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+/* media queries */
+@media (max-width:767.98px){
+    main {
+        padding: 0 15px;
+    }
+    section {
+        margin-top: 40px;
+    }
+
+    header{
+        padding: 20px;
+        text-align: center;
+    }
+    .about-me, .skills, .footer-area {
+        flex-direction: column;
+    }
+    .call-to-area{
+        padding: 20px;
+    }
+    .footer-area{
+        padding: 30px 15px;
+    }
+
+    input[type="email"] {
+        width: 80%;
+    }
+
+}
